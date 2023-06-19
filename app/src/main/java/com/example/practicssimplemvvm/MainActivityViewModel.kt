@@ -17,8 +17,8 @@ class MainActivityViewModel: ViewModel() {
 
     fun topla(eded_1: Editable,eded_2 :Editable){
 
-        var number1 = eded_1.toString().toInt()
-        var number2 = eded_2.toString().toInt()
+        val number1 = eded_1.toString().toInt()
+        val number2 = eded_2.toString().toInt()
 
         val toplam = number1 + number2
         cem.value = toplam.toString()   //3
@@ -26,8 +26,8 @@ class MainActivityViewModel: ViewModel() {
 
     fun cixma(eded_1: Editable,eded_2 :Editable){
 
-        var number1 = eded_1.toString().toInt()
-        var number2 = eded_2.toString().toInt()
+        val number1 = eded_1.toString().toInt()
+        val number2 = eded_2.toString().toInt()
 
         val toplam = number1 - number2
         cem.value = toplam.toString() //4
